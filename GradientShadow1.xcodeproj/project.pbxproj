@@ -13,6 +13,7 @@
 		1F0F04152A52D31500AD464F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F04132A52D31500AD464F /* Main.storyboard */; };
 		1F0F04172A52D31600AD464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F04162A52D31600AD464F /* Assets.xcassets */; };
 		1F0F041A2A52D31600AD464F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0F04182A52D31600AD464F /* LaunchScreen.storyboard */; };
+		1F0F04222A52D33400AD464F /* GradientShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F04212A52D33400AD464F /* GradientShadowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1F0F04162A52D31600AD464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0F04192A52D31600AD464F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0F041B2A52D31600AD464F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0F04212A52D33400AD464F /* GradientShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientShadowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				1F0F040D2A52D31500AD464F /* AppDelegate.swift */,
+				1F0F04212A52D33400AD464F /* GradientShadowView.swift */,
 				1F0F040F2A52D31500AD464F /* SceneDelegate.swift */,
 				1F0F04112A52D31500AD464F /* ViewController.swift */,
 				1F0F04132A52D31500AD464F /* Main.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1F0F04122A52D31500AD464F /* ViewController.swift in Sources */,
 				1F0F040E2A52D31500AD464F /* AppDelegate.swift in Sources */,
+				1F0F04222A52D33400AD464F /* GradientShadowView.swift in Sources */,
 				1F0F04102A52D31500AD464F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
